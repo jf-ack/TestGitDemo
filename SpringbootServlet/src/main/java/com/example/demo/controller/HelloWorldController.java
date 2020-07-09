@@ -17,6 +17,9 @@ public class HelloWorldController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello2() throws Exception{
+        System.out.println("故意产生冲突");
         return "HelloWorld";
     }
+
+
 }
