@@ -23,6 +23,7 @@ public class HelloWorldController {
     @RequestMapping("/hello")
     @ResponseBody
     public String hello3() throws Exception{
+        System.out.println("哈哈");
         return "HelloWorld";
     }
 }
