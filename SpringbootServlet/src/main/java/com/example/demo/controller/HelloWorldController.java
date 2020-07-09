@@ -19,4 +19,10 @@ public class HelloWorldController {
     public String hello2() throws Exception{
         return "HelloWorld";
     }
+    @ApiOperation(value = "hello",notes = "notes")
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String hello3() throws Exception{
+        return "HelloWorld";
+    }
 }
