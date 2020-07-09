@@ -18,6 +18,7 @@ public class HelloWorldController {
     @ResponseBody
     public String hello2() throws Exception{
         System.out.println("故意产生冲突");
+        System.out.println("故意产生冲突1");
         return "HelloWorld";
     }
     @ApiOperation(value = "hello",notes = "notes")
