@@ -20,4 +20,11 @@ public class HelloWorldController {
         return "HelloWorld";
     }
 
+    @ApiOperation(value = "helloHtml",notes = "notes")
+    @RequestMapping("/helloHtmlSwagger")
+    @ResponseBody
+    public String hello2() throws Exception{
+        return "HelloWorld";
+    }
+
 }
