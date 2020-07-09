@@ -13,4 +13,11 @@ public class HelloWorldController {
     public String hello() throws Exception{
         return "HelloWorld";
     }
+
+    @ApiOperation(value = "helloHtml",notes = "notes")
+    @RequestMapping("/helloHtml")
+    public String hello1() throws Exception{
+        return "HelloWorld";
+    }
+
 }
