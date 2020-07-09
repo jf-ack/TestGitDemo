@@ -20,6 +20,10 @@ public class HelloWorldController {
         System.out.println("故意产生冲突");
         return "HelloWorld";
     }
-
-
+    @ApiOperation(value = "hello",notes = "notes")
+    @RequestMapping("/hello")
+    @ResponseBody
+    public String hello3() throws Exception{
+        return "HelloWorld";
+    }
 }
