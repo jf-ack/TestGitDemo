@@ -21,6 +21,7 @@ public class HelloWorldController {
         System.out.println("故意产生冲突1");
         System.out.println("故意产生冲突2");
         System.out.println("故意产生冲突3");
+        System.out.println("故意产生冲突4");
         return "HelloWorld";
     }
     @ApiOperation(value = "hello",notes = "notes")
