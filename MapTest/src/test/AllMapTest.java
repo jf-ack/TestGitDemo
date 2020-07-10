@@ -1,4 +1,7 @@
-package Test;
+package test;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class AllMapTest {
     /**
@@ -22,6 +25,11 @@ public class AllMapTest {
      * @param args
      */
     public static void main(String[] args) {
+        Map map = new HashMap<String,Object>();
+        Map map1 = new HashMap();
 
+        map1.put("name","zhangsan");
+        map1.put("age",23);
+        System.out.println(map1);
     }
 }
