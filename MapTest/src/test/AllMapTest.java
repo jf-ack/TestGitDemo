@@ -31,5 +31,6 @@ public class AllMapTest {
         map1.put("name","zhangsan");
         map1.put("age",23);
         System.out.println(map1);
+        System.out.println(map1.get("name"));
     }
 }
